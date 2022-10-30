@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #0abab5;
+    --secondary-color: #f5f2fe;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+    margin: 60px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+
+.navigation-links {
+    display: flex;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.navigation-links a {
+    margin: 15px;
+    border-radius: 3px;
+    padding: 15px 15px;
+    text-decoration: none;
+    background: var(--primary-color);
+    color: white;
+}
+
+.contact-link {
+
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+
+.photo-link {
+
+    border: 1px solid var(--primary-color);
+}
+
+.homepage-link {
+
+    text-align: center;
+    display: block;
+}
